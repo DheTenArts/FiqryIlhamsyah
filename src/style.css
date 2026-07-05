@@ -1,0 +1,37 @@
+body {
+    color: white;
+    min-height: 100vh;
+    overflow-x: hidden;
+    background-color: #231842;
+
+    background-image:
+        radial-gradient(circle, rgba(138, 43, 226, .3) 0%, transparent 40%),
+        radial-gradient(circle, rgba(80, 0, 255, .2) 0%, transparent 35%),
+        radial-gradient(circle, rgba(180, 120, 255, .15) 0%, transparent 45%);
+
+    background-size: 1000px 1000px, 800px 800px, 1200px 1200px;
+    animation: bergerak 15s ease-in-out infinite alternate;
+}
+
+.navbar {
+    padding: 0 35px;
+    background-color: rgba(20, 15, 37, 0.705);
+    border-radius: 10px;
+    backdrop-filter: blur(15px);
+    /* filter: drop-shadow(0 4px 10px #ff3b3b6b); */
+    box-shadow: 0 4px 10px rgba(94, 67, 252, 0.699);
+    z-index: 9999;
+}
+
+.nav-link {
+    color: white;
+    padding: 5px;
+    width: 6rem;
+    border-radius: 10px;
+    transition: all .4s ease-in-out;
+}
+
+.nav-link:hover {
+    color: rgb(187, 135, 255);
+    background-color: #210c5e;
+}
