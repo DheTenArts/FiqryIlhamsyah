@@ -8,6 +8,7 @@
 
     <!-- ? Link External -->
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="src/style.css">
@@ -16,9 +17,9 @@
 <body>
     <!-- ! Navbar Start -->
     <div class="container mt-4">
-        <nav class="navbar navbar-expand-lg d-flex align-items-center justify-content-between">
+        <nav class="navbar navbar-expand-lg d-flex align-items-center justify-content-between" data-bs-theme="dark">
 
-            <a class="navbar-brand d-flex align-items-center text-white fw-bold" href="#">
+            <a class="navbar-brand d-flex align-items-center text-white fw-bold" href="">
                 <img src="img/LogoDheten1.png" width="30" class="me-2">
                 FIQRY <span class="text-primary"> ILH</span>
             </a>
@@ -29,21 +30,21 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav text-center ms-auto gap-2">
+                <ul class="navbar-nav ms-auto gap-2 pb-3 pb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="">Home</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Projects</a>
+                        <a class="nav-link" href="#project">Projects</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -54,24 +55,40 @@
     <!-- ! End Navbar -->
 
     <!-- ! Jumbotron -->
-    <div class="container mt-5">
-        <section class="jumbotron d-flex">
-            <div class="judul d-flex flex-column">
-                <h1 class="display-4">Hello, world!</h1>
-                <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra
-                    attention
-                    to
-                    featured content or information.</p>
-                <hr class="my-4">
-                <p>It uses utility classes for typography and spacing to space content out within the larger container.
-                </p>
-                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    <div class="container mt-5 text-center">
+        <div class="jumbotron jumbotron-fluid">
+            <img src="img/fiqry2.png" alt="foto_fiqry_ilhamsyah_hasibuan" class="border border-2 rounded-circle"
+                style="width: 10rem;">
+            <h1 class="display-4 fw-bold mt-4">
+                Fiqry <span class="text-primary">Ilhamsyah</span>
+            </h1>
+            <p class="fs-5 text-primary fw-semibold mb-3">
+                Software Engineering Student
+            </p>
+            <hr class="my-4 w-25 mx-auto">
+            <p class="lead w-75 mx-auto">
+                Passionate about Web Development, UI/UX Design, and Problem Solving.
+                I enjoy building responsive websites and learning modern technologies
+                to create impactful digital experiences.
+            </p>
+            <div class="d-flex justify-content-center gap-5">
+                <button type="button" class="btn btn-outline-primary">Primary</button>
+                <button type="button" class="btn btn-outline-primary">Primary</button>
             </div>
+            <div class="mt-4">
+                <a href="#" class="text-white fs-3 me-3">
+                    <i class="bi bi-github"></i>
+                </a>
 
-            <div class="d-flex">
-                <img src="" alt="Foto Fiqry Ilhamsyah Hasibuan">
+                <a href="#" class="text-white fs-3 me-3">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+
+                <a href="#" class="text-white fs-3">
+                    <i class="bi bi-instagram"></i>
+                </a>
             </div>
-        </section>
+        </div>
     </div>
 
     <!-- ! End Jumbotron -->

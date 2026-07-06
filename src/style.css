@@ -25,13 +25,11 @@ body {
 
 .nav-link {
     color: white;
-    padding: 5px;
-    width: 6rem;
-    border-radius: 10px;
+    font-weight: 500;
     transition: all .4s ease-in-out;
 }
 
 .nav-link:hover {
     color: rgb(187, 135, 255);
-    background-color: #210c5e;
+    transform: translateY(-5px);
 }
