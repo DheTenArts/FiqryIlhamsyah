@@ -47,10 +47,21 @@ body {
             #a928ff,
             #3002fc);
     box-shadow:
-        0 0 15px rgba(98, 0, 255, .35),
-        0 0 40px rgba(98, 0, 255, .18);
+        0 0 15px rgba(98, 0, 255, 0.548),
+        0 0 40px rgba(52, 38, 255, 0.808);
     width: fit-content;
     letter-spacing: 3px;
-    font-size: 2.5rem;
+    font-size: 2rem;
     border-radius: 50px;
+}
+
+.judul {
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 3px;
+}
+
+.desc-judul {
+    color: rgba(218, 218, 218, 0.651);
 }
