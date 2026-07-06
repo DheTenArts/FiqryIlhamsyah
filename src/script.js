@@ -12,7 +12,7 @@ var typed = new Typed("#typing", {
 
 new Typed("#typing-skill", {
     strings: [
-        "Mahasiswa Software Engineering",
+        "Mahasiswa Software Engineering Technology",
         "Web Developer",
         "3D Designer",
         "Graphic Designer",
