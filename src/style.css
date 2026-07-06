@@ -33,3 +33,24 @@ body {
     color: rgb(187, 135, 255);
     transform: translateY(-5px);
 }
+
+.text-pruple {
+    color: #4402fc;
+}
+
+.judul-jumbotron {
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: linear-gradient(90deg,
+            #5b21ff,
+            #a928ff,
+            #3002fc);
+    box-shadow:
+        0 0 15px rgba(98, 0, 255, .35),
+        0 0 40px rgba(98, 0, 255, .18);
+    width: fit-content;
+    letter-spacing: 3px;
+    font-size: 2.5rem;
+    border-radius: 50px;
+}
