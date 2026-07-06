@@ -27,5 +27,5 @@ new Typed("#typing-skill", {
 });
 
 AOS.init({
-    once: true
+    // once: true
 });

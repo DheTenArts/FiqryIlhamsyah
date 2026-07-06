@@ -35,7 +35,7 @@ body {
 }
 
 .text-pruple {
-    color: #4402fc;
+    color: #8559ff;
 }
 
 .judul-jumbotron {
@@ -64,4 +64,11 @@ body {
 
 .desc-judul {
     color: rgba(218, 218, 218, 0.651);
+}
+
+.border-purple {
+    border: 3px solid #7c3aed !important;
+    box-shadow:
+        0 0 10px rgba(124, 58, 237, .5),
+        0 0 25px rgba(124, 58, 237, .25);
 }
