@@ -72,3 +72,49 @@ body {
         0 0 10px rgba(124, 58, 237, .5),
         0 0 25px rgba(124, 58, 237, .25);
 }
+
+.keahlian-pendidikan {
+    background: linear-gradient(145deg, #3f0ca5, #2c006f);
+    color: #fff;
+
+    border: 1px solid rgba(140, 82, 255, .5);
+    border-radius: 14px;
+
+    box-shadow:
+        0 8px 25px rgba(0, 0, 0, .35),
+        0 0 18px rgba(124, 77, 255, .18);
+
+    overflow: hidden;
+
+    transition: .35s ease;
+}
+
+.tech-badge {
+    display: inline-block;
+    padding: 6px 12px;
+    margin: 4px;
+
+    background: #5b21b6;
+    color: #fff;
+
+    border: 1px solid #8b5cf6;
+    border-radius: 10px;
+
+    font-size: .8rem;
+    font-weight: 600;
+
+    transition: .3s;
+}
+
+.tech-badge:hover {
+    background: #7c3aed;
+    transform: translateY(-2px);
+    box-shadow: 0 0 10px rgba(124, 58, 237, .5);
+}
+
+.jenjang{
+    color:hsl(219, 95%, 85%);
+    font-size:.9rem;
+    font-weight:500;
+    margin-left:24px;
+}

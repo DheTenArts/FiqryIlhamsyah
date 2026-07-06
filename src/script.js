@@ -1,8 +1,8 @@
 var typed = new Typed("#typing", {
     strings: [
-        "👋 Hi There!",
-        "👋 Welcome to My Portfolio",
-        "👋 Nice to Meet You!"
+        "👋 Hi Semuanya!",
+        "👋 Selamat Datang di Portfolio Ku",
+        "👋 Senang Bertemu dengan Kalian!"
     ],
     typeSpeed: 70,
     backSpeed: 40,
@@ -12,11 +12,11 @@ var typed = new Typed("#typing", {
 
 new Typed("#typing-skill", {
     strings: [
-        "Software Engineering Student",
+        "Mahasiswa Software Engineering",
         "Web Developer",
         "3D Designer",
         "Graphic Designer",
-        "Logo And    Brand Designer",
+        "Logo dan Brand Designer",
         "Pixelart Artist",
         "Creative Problem Solver"
     ],
@@ -27,5 +27,5 @@ new Typed("#typing-skill", {
 });
 
 AOS.init({
-    // once: true
+    once: true
 });
