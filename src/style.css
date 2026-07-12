@@ -178,3 +178,18 @@ body {
     color: #cbd5e1;
     font-size: .9rem;
 }
+
+/* ! ================================================== */
+@keyframes bergerak {
+    0% {
+        background-position: 0% 0%, 100% 100%, 50% 50%;
+    }
+
+    50% {
+        background-position: 20% 10%, 80% 90%, 40% 60%;
+    }
+
+    100% {
+        background-position: 40% 20%, 60% 80%, 30% 70%;
+    }
+}
