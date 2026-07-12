@@ -29,7 +29,6 @@ new Typed("#typing-skill", {
     loop: true
 });
 
-// AOS.init({
-//     once: true
-// });
-sal();
+AOS.init({
+    once: true
+});
