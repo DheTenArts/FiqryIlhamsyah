@@ -32,7 +32,4 @@ new Typed("#typing-skill", {
 // AOS.init({
 //     once: true
 // });
-sal({
-    threshold: 0.15,
-    once: false
-});
+sal();
