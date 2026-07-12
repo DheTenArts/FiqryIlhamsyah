@@ -1,3 +1,6 @@
+const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+
 var typed = new Typed("#typing", {
     strings: [
         "👋 Hi Semuanya!",
@@ -26,6 +29,10 @@ new Typed("#typing-skill", {
     loop: true
 });
 
-AOS.init({
-    once: true
+// AOS.init({
+//     once: true
+// });
+sal({
+    threshold: 0.15,
+    once: false
 });

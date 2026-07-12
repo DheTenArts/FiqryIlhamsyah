@@ -13,7 +13,13 @@
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Pixelify+Sans:wght@400..700&display=swap"
         rel="stylesheet">
-    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist+Pixel&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/sal.js/dist/sal.css">
+    <!-- <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet"> -->
     <link rel="stylesheet" href="src/style.css">
 </head>
 
@@ -73,7 +79,8 @@
             </p>
             <hr class="my-4 w-25 mx-auto">
             <p class="lead w-75 fw-normal mx-auto">
-                Saya adalah mahasiswa Software Engineering Technology yang memiliki ketertarikan pada Web Development, Graphic
+                Saya adalah mahasiswa Software Engineering Technology yang memiliki ketertarikan pada Web Development,
+                Graphic
                 Design, Pixel Art, dan 3D Design. Saya senang mengubah ide menjadi pengalaman digital yang kreatif dan
                 menarik.
             </p>
@@ -99,29 +106,29 @@
     <section id="about">
         <div class="container d-flex flex-column align-items-center mt-5">
 
-            <div class="d-flex justify-content-center align-items-center" data-aos="fade-up" ata-aos-easing="linear"
-                data-aos-duration="1000">
+            <div class="d-flex justify-content-center align-items-center" data-sal="slide-down" data-sal-duration="1500"
+                data-sal-easing="linear">
                 <div class="border-top border-secondary opacity-50" style="width:100px;"></div>
                 <b class="mx-3">✦</b>
                 <div class="border-top border-secondary opacity-50" style="width:100px;"></div>
             </div>
 
-            <h1 class="fs-1 judul" data-aos="fade-up" ata-aos-easing="linear" data-aos-duration="1000">
+            <h1 class="fs-1 judul" data-sal="slide-up" data-sal-duration="1500" data-sal-easing="linear">
                 TENTANG SAYA
             </h1>
-            <p class="desc-judul" data-aos="fade-up" ata-aos-easing="linear" data-aos-duration="1000">
+            <p class="desc-judul" data-sal="slide-up" data-sal-duration="1500" data-sal-easing="linear">
                 Mengetahui Lanjut Tentang Saya
             </p>
 
             <div class="row mt-5">
-                <div class="col-lg-4 text-center" data-aos="fade-right" ata-aos-easing="linear"
-                    data-aos-duration="1500">
+                <div class="col-lg-4 text-center" data-sal="slide-right" data-sal-easing="linear"
+                    data-sal-duration="1500">
                     <img src="img/fiqry2.webp" alt="foto_fiqryilhamsyahhasibuan"
-                        class="img-fluid w-75 border border-purple rounded-3">
+                        class="img-fluid w-75 border-purple rounded-3">
                 </div>
 
-                <div class="col-lg-8 mt-5 mt-lg-0 mb-5" data-aos="fade-left" ata-aos-easing="linear"
-                    data-aos-duration="500">
+                <div class="col-lg-8 mt-5 mt-lg-0 mb-5" data-sal="slide-left" data-sal-easing="linear"
+                    data-sal-duration="1500">
                     <div class="d-flex align-items-center mb-3">
                         <img src="img/tanda.webp" alt="" class="me-3" style="width:70px;">
 
@@ -157,116 +164,264 @@
     <!-- ! Skills -->
     <section id="skills">
         <div class="container d-flex flex-column align-items-center mt-5">
-            <div class="d-flex justify-content-center align-items-center" data-aos="fade-up" ata-aos-easing="linear"
-                data-aos-duration="1000">
+
+            <div class="d-flex justify-content-center align-items-center" data-sal="slide-up" data-sal-duration="800"
+                data-sal-delay="200">
                 <div class="border-top border-secondary opacity-50" style="width:100px;"></div>
                 <b class="mx-3">✦</b>
                 <div class="border-top border-secondary opacity-50" style="width:100px;"></div>
             </div>
 
-            <h1 class="fs-1 judul text-uppercase" data-aos="fade-up" ata-aos-easing="linear" data-aos-duration="1000">
+            <h1 class="fs-1 judul text-uppercase" data-sal="slide-up" data-sal-duration="1300">
                 Keahlian & Pendidikan
             </h1>
-            <p class="desc-judul" data-aos="fade-up" ata-aos-easing="linear" data-aos-duration="1000">
+            <p class="desc-judul w-50 text-center" data-sal="slide-up" data-sal-duration="1300">
                 Keahlian, teknologi yang saya gunakan, serta perjalanan pendidikan yang membentuk kemampuan saya hingga
                 saat ini.
             </p>
 
             <div class="row mt-5 g-5">
+
                 <!-- * Keahlian -->
-                <div class="col-lg-4" data-aos="zoom-in" ata-aos-easing="linear" data-aos-duration="1000">
+                <div class="col-lg-4 d-flex" data-sal="zoom-in" data-sal-duration="1000" data-sal-easing="linear">
                     <div class="card mb-3 mx-auto keahlian-pendidikan" style="max-width: 18rem;">
-                        <h5 class="card-header">💻 Keahlian</h5>
+                        <h5 class="card-header"><i class="fa-solid fa-computer"></i> Keahlian</h5>
                         <div class="card-body">
-                            <h6 class="fw-bold">🌐 Web Development</h6>
 
-                            <span class="tech-badge">Responsive Website</span>
-                            <span class="tech-badge">UI Design</span>
-                            <span class="tech-badge">Frontend</span>
-                            <span class="tech-badge">Backend</span>
+                            <h6 class="fw-bold mb-3">
+                                <i class="fa-solid fa-globe me-2 warna-icon"></i>
+                                Web Development
+                            </h6>
+                            <div class="d-flex flex-wrap gap-2">
+                                <span class="badge pixel-badge" data-bs-toggle="tooltip" data-bs-placement="top"
+                                    data-bs-title="Membangun website yang responsif di berbagai perangkat.">
+                                    Responsive Website
+                                </span>
+                                <span class="badge pixel-badge" data-bs-toggle="tooltip" data-bs-placement="top"
+                                    data-bs-title="Merancang tampilan antarmuka yang menarik dan mudah digunakan.">
+                                    UI Design
+                                </span>
+                                <span class="badge pixel-badge" data-bs-toggle="tooltip" data-bs-placement="top"
+                                    data-bs-title="Mengembangkan tampilan website menggunakan HTML, CSS, dan JavaScript.">
+                                    Frontend
+                                </span>
+                                <span class="badge pixel-badge" data-bs-toggle="tooltip" data-bs-placement="top"
+                                    data-bs-title="Membangun logika aplikasi, API, dan pengelolaan database.">
+                                    Backend
+                                </span>
+                            </div>
 
-                            <h6 class="fw-bold mt-4">🎨 Graphic Design</h6>
+                            <h6 class="fw-bold mt-4 mb-3">
+                                <i class="fa-solid fa-palette me-2 warna-icon"></i>
+                                Graphic Design
+                            </h6>
+                            <div class="d-flex flex-wrap gap-2">
+                                <span class="badge pixel-badge" data-bs-toggle="tooltip" data-bs-placement="top"
+                                    data-bs-title="Merancang logo yang merepresentasikan identitas sebuah brand.">
+                                    Logo
+                                </span>
+                                <span class="badge pixel-badge" data-bs-toggle="tooltip" data-bs-placement="top"
+                                    data-bs-title="Mendesain poster digital untuk media promosi maupun informasi.">
+                                    Poster
+                                </span>
+                                <span class="badge pixel-badge" data-bs-toggle="tooltip" data-bs-placement="top"
+                                    data-bs-title="Membangun identitas visual seperti warna, logo, dan elemen branding.">
+                                    Branding
+                                </span>
+                            </div>
 
-                            <span class="tech-badge">Logo</span>
-                            <span class="tech-badge">Poster</span>
-                            <span class="tech-badge">Branding</span>
+                            <h6 class="fw-bold mt-4 mb-3">
+                                <i class="fa-solid fa-gamepad warna-icon me-2"></i>
+                                Pixel Art
+                            </h6>
+                            <div class="d-flex flex-wrap gap-2">
+                                <span class="badge pixel-badge" data-bs-toggle="tooltip" data-bs-placement="top"
+                                    data-bs-title="Membuat karakter bergaya pixel untuk game maupun ilustrasi.">
+                                    Character
+                                </span>
+                                <span class="badge pixel-badge" data-bs-toggle="tooltip" data-bs-placement="top"
+                                    data-bs-title="Mendesain kumpulan tile untuk membangun lingkungan game.">
+                                    Tileset
+                                </span>
+                                <span class="badge pixel-badge" data-bs-toggle="tooltip" data-bs-placement="top"
+                                    data-bs-title="Membuat berbagai aset pixel seperti item, icon, dan objek permainan.">
+                                    Game Asset
+                                </span>
+                            </div>
 
-                            <h6 class="fw-bold mt-4">🕹 Pixel Art</h6>
-
-                            <span class="tech-badge">Character</span>
-                            <span class="tech-badge">Tileset</span>
-                            <span class="tech-badge">Game Asset</span>
-
-                            <h6 class="fw-bold mt-4">🧊 3D Design</h6>
-
-                            <span class="tech-badge">Modeling</span>
-                            <span class="tech-badge">CAD</span>
-                            <span class="tech-badge">Rendering</span>
+                            <h6 class="fw-bold mt-4 mb-3">
+                                <i class="fa-solid fa-cube me-2 warna-icon"></i>
+                                3D Design
+                            </h6>
+                            <div class="d-flex flex-wrap gap-2">
+                                <span class="badge pixel-badge" data-bs-toggle="tooltip" data-bs-placement="top"
+                                    data-bs-title="Membuat model objek tiga dimensi menggunakan software 3D.">
+                                    Modeling
+                                </span>
+                                <span class="badge pixel-badge" data-bs-toggle="tooltip" data-bs-placement="top"
+                                    data-bs-title="Merancang model teknik menggunakan Computer Aided Design.">
+                                    CAD
+                                </span>
+                                <span class="badge pixel-badge" data-bs-toggle="tooltip" data-bs-placement="top"
+                                    data-bs-title="Menghasilkan gambar akhir berkualitas tinggi dari model 3D.">
+                                    Rendering
+                                </span>
+                            </div>
                         </div>
                     </div>
                 </div>
 
                 <!-- * Teknologi -->
-                <div class="col-lg-4" data-aos="zoom-in" ata-aos-easing="linear" data-aos-duration="1000">
+                <div class="col-lg-4" data-sal="zoom-in" data-sal-duration="1000" data-sal-easing="linear">
                     <div class="card keahlian-pendidikan mb-3 mx-auto" style="max-width: 18rem;">
-                        <h5 class="card-header">🛠 Tools & Teknologi</h5>
+                        <h5 class="card-header"><i class="fa-solid fa-screwdriver-wrench"></i> Tools & Teknologi</h5>
                         <div class="card-body">
 
-                            <!-- Web Development -->
-                            <h6 class="fw-bold mb-2">🌐 Web Development</h6>
+                            <h6 class="fw-bold mb-3">
+                                <i class="fa-solid fa-globe me-2 warna-icon"></i>
+                                Web Development
+                            </h6>
+                            <div class="d-flex flex-wrap gap-2">
+                                <span class="badge pixel-badge" data-bs-toggle="tooltip" data-bs-placement="top"
+                                    data-bs-title="Bahasa standar untuk membangun struktur halaman web.">
+                                    HTML5
+                                </span>
+                                <span class="badge pixel-badge" data-bs-toggle="tooltip" data-bs-placement="top"
+                                    data-bs-title="Digunakan untuk mengatur tampilan, warna, layout, dan animasi website.">
+                                    CSS3
+                                </span>
+                                <span class="badge pixel-badge" data-bs-toggle="tooltip" data-bs-placement="top"
+                                    data-bs-title="Framework CSS untuk membangun website yang responsif dengan lebih cepat.">
+                                    Bootstrap
+                                </span>
+                                <span class="badge pixel-badge" data-bs-toggle="tooltip" data-bs-placement="top"
+                                    data-bs-title="Bahasa pemrograman yang membuat website menjadi interaktif.">
+                                    JavaScript
+                                </span>
+                                <span class="badge pixel-badge" data-bs-toggle="tooltip" data-bs-placement="top"
+                                    data-bs-title="Bahasa pemrograman sisi server untuk membangun aplikasi web dinamis.">
+                                    PHP
+                                </span>
+                                <span class="badge pixel-badge" data-bs-toggle="tooltip" data-bs-placement="top"
+                                    data-bs-title="Sistem manajemen basis data relasional untuk menyimpan dan mengelola data aplikasi.">
+                                    MySQL
+                                </span>
+                            </div>
 
-                            <span class="badge text-bg-primary m-1">HTML5</span>
-                            <span class="badge text-bg-primary m-1">CSS3</span>
-                            <span class="badge text-bg-primary m-1">Bootstrap</span>
-                            <span class="badge text-bg-primary m-1">JavaScript</span>
-                            <span class="badge text-bg-primary m-1">PHP</span>
-                            <span class="badge text-bg-primary m-1">MySQL</span>
+                            <h6 class="fw-bold mt-4 mb-3">
+                                <i class="fa-solid fa-palette me-2 warna-icon"></i>
+                                Design
+                            </h6>
+                            <div class="d-flex flex-wrap gap-2">
+                                <span class="badge pixel-badge" data-bs-toggle="tooltip" data-bs-placement="top"
+                                    data-bs-title="Software desain vektor yang saya gunakan untuk membuat logo, ikon, dan ilustrasi.">
+                                    Inkscape
+                                </span>
+                                <span class="badge pixel-badge" data-bs-toggle="tooltip" data-bs-placement="top"
+                                    data-bs-title="Software khusus untuk membuat Pixel Art, karakter, dan aset game.">
+                                    Aseprite
+                                </span>
+                                <span class="badge pixel-badge" data-bs-toggle="tooltip" data-bs-placement="top"
+                                    data-bs-title="Software 3D yang digunakan untuk modeling, rendering, dan animasi.">
+                                    360 Fusion
+                                </span>
+                                <span class="badge pixel-badge" data-bs-toggle="tooltip" data-bs-placement="top"
+                                    data-bs-title="Website 3D yang digunakan untuk modeling, dan rendering.">
+                                    OnShape
+                                </span>
+                            </div>
 
-                            <!-- Design -->
-                            <h6 class="fw-bold mt-4 mb-2">🎨 Design</h6>
-
-                            <span class="badge text-bg-warning text-dark m-1">Inkscape</span>
-                            <span class="badge text-bg-warning text-dark m-1">Aseprite</span>
-                            <span class="badge text-bg-warning text-dark m-1">Blender</span>
-
-                            <!-- Tools -->
-                            <h6 class="fw-bold mt-4 mb-2">⚙️ Tools</h6>
-
-                            <span class="badge text-bg-success m-1">Git</span>
-                            <span class="badge text-bg-success m-1">GitHub</span>
-                            <span class="badge text-bg-success m-1">VS Code</span>
+                            <h6 class="fw-bold mt-4 mb-3">
+                                <i class="fa-solid fa-gear warna-icon me-2"></i>
+                                Tools
+                            </h6>
+                            <div class="d-flex flex-wrap gap-2">
+                                <span class="badge pixel-badge" data-bs-toggle="tooltip" data-bs-placement="top"
+                                    data-bs-title="Version Control System untuk mengelola perubahan source code.">
+                                    Git
+                                </span>
+                                <span class="badge pixel-badge" data-bs-toggle="tooltip" data-bs-placement="top"
+                                    data-bs-title="Platform untuk menyimpan, mengelola, dan berkolaborasi dalam proyek menggunakan Git.">
+                                    GitHub
+                                </span>
+                                <span class="badge pixel-badge" data-bs-toggle="tooltip" data-bs-placement="top"
+                                    data-bs-title="Code editor utama yang saya gunakan untuk mengembangkan berbagai proyek.">
+                                    VS Code
+                                </span>
+                            </div>
 
                         </div>
                     </div>
                 </div>
 
                 <!-- * Pendidikan -->
-                <div class="col-lg-4" data-aos="zoom-in" ata-aos-easing="linear" data-aos-duration="1000">
+                <div class="col-lg-4" data-sal="zoom-in" data-sal-duration="1000" data-sal-easing="linear">
                     <div class="card keahlian-pendidikan mb-3 mx-auto" style="max-width: 18rem;">
-                        <h5 class="card-header">🎓 Riwayat Pendidikan</h5>
+                        <h5 class="card-header"><i class="fa-solid fa-graduation-cap"></i> Riwayat Pendidikan</h5>
                         <div class="card-body">
-                            <div class="mb-4">
-                                <div class="fw-bold">🏫 SD Negeri 066056</div>
-                                <div class="jenjang">Primary School</div>
+
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <div class="timeline-dot"></div>
+
+                                    <div class="timeline-content">
+                                        <span class="tahun">2025 - Sekarang</span>
+                                        <h6 class="fw-bold mb-1">
+                                            Politeknik Wilmar Bisnis Indonesia
+                                        </h6>
+                                        <small class="jenjang">
+                                            Software Engineering Technology
+                                        </small>
+                                    </div>
+                                </div>
+
+                                <div class="timeline-item">
+                                    <div class="timeline-dot"></div>
+
+                                    <div class="timeline-content">
+                                        <span class="tahun">2022 - 2025</span>
+                                        <h6 class="fw-bold mb-1">
+                                            SMK Negeri 1 Percut Sei Tuan
+                                        </h6>
+                                        <small class="jenjang">
+                                            Software Engineering
+                                        </small>
+                                    </div>
+                                </div>
+
+                                <div class="timeline-item">
+                                    <div class="timeline-dot"></div>
+
+                                    <div class="timeline-content">
+                                        <span class="tahun">2019 - 2022</span>
+                                        <h6 class="fw-bold mb-1">
+                                            SMP Muhammadiyah 01 Medan
+                                        </h6>
+                                        <small class="jenjang">
+                                            Junior High School
+                                        </small>
+                                    </div>
+                                </div>
+
+                                <div class="timeline-item">
+                                    <div class="timeline-dot"></div>
+
+                                    <div class="timeline-content">
+                                        <span class="tahun">2013 - 2019</span>
+                                        <h6 class="fw-bold mb-1">
+                                            SD Negeri 066056
+                                        </h6>
+                                        <small class="jenjang">
+                                            Primary School
+                                        </small>
+                                    </div>
+                                </div>
                             </div>
 
-                            <div class="mb-4">
-                                <div class="fw-bold">🏫 SMP Muhammadiyah 01 Medan</div>
-                                <div class="jenjang">Junior High School</div>
-                            </div>
-
-                            <div class="mb-4">
-                                <div class="fw-bold">💻 SMK Negeri 1 Percut Sei Tuan</div>
-                                <div class="jenjang">Software Engineering</div>
-                            </div>
-
-                            <div>
-                                <div class="fw-bold">🎓 Politeknik Wilmar Bisnis Indonesia</div>
-                                <div class="jenjang">Software Engineering Technology</div>
-                            </div>
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
@@ -274,7 +429,28 @@
 
 
     <!-- TODO : Next buat tampilakn beberapa project pixelart dan 3d kalau ada -->
+    <!-- ! Projek -->
+    <section id="projek">
+        <div class="container d-flex flex-column align-items-center mt-5">
+            <div class="d-flex justify-content-center align-items-center" data-sal="slide-up" data-aos-duration="1000">
+                <div class="border-top border-secondary opacity-50" style="width:100px;"></div>
+                <b class="mx-3">✦</b>
+                <div class="border-top border-secondary opacity-50" style="width:100px;"></div>
+            </div>
 
+            <h1 class="fs-1 judul text-uppercase" data-sal="slide-up" data-sal-duration="1000" data-aos-duration="1000">
+                Project Saya
+            </h1>
+            <p class="desc-judul w-50 text-center" data-sal="slide-up" data-sal-easing="linear"
+                data-aos-duration="1000">
+                Beberapa proyek yang telah saya kerjakan sebagai bagian dari proses belajar, eksplorasi, dan
+                pengembangan kemampuan di bidang teknologi serta desain.
+            </p>
+        </div>
+
+        
+    </section>
+    <!-- ! End Projek -->
 
     <!-- ? Link Javascript -->
 
@@ -286,8 +462,11 @@
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
 
+    <!-- ? Sal.js -->
+    <script src="https://unpkg.com/sal.js/dist/sal.js"></script>
+
     <!-- ? aos.js -->
-    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <!-- <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script> -->
 
     <!-- ? Manua JS -->
     <script src="src/script.js"></script>

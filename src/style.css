@@ -5,9 +5,9 @@ body {
     background-color: #231842;
 
     background-image:
-        radial-gradient(circle, rgba(138, 43, 226, .3) 0%, transparent 40%),
+        radial-gradient(circle, rgba(182, 105, 255, 0.3) 0%, transparent 40%),
         radial-gradient(circle, rgba(80, 0, 255, .2) 0%, transparent 35%),
-        radial-gradient(circle, rgba(180, 120, 255, .15) 0%, transparent 45%);
+        radial-gradient(circle, rgba(90, 53, 136, 0.15) 0%, transparent 45%);
 
     background-size: 1000px 1000px, 800px 800px, 1200px 1200px;
     animation: bergerak 15s ease-in-out infinite alternate;
@@ -67,54 +67,129 @@ body {
 }
 
 .border-purple {
-    border: 3px solid #7c3aed !important;
+    border: 3px solid #7c3aed;
     box-shadow:
         0 0 10px rgba(124, 58, 237, .5),
         0 0 25px rgba(124, 58, 237, .25);
 }
 
 .keahlian-pendidikan {
+    max-width: 20rem;
+    height: 96%;
     background: linear-gradient(145deg, #3f0ca5, #2c006f);
     color: #fff;
-
     border: 1px solid rgba(140, 82, 255, .5);
     border-radius: 14px;
-
     box-shadow:
         0 8px 25px rgba(0, 0, 0, .35),
         0 0 18px rgba(124, 77, 255, .18);
-
     overflow: hidden;
-
     transition: .35s ease;
 }
 
-.tech-badge {
-    display: inline-block;
-    padding: 6px 12px;
-    margin: 4px;
-
-    background: #5b21b6;
+.pixel-badge {
+    font-family: "Geist Pixel", sans-serif;
+    font-optical-sizing: auto;
+    font-variation-settings:
+        "ELSH" 0;
+    font-size: .9rem;
+    letter-spacing: 2px;
+    padding: 5px 14px;
     color: #fff;
+    background: linear-gradient(180deg, #7c3aed, #5b21b6);
+    border: 2px solid #b794ff;
+    box-shadow:
+        3px 3px 0 #2d146d,
+        0 0 10px rgba(124, 58, 237, .35);
+    transition: .25s ease;
+}
 
-    border: 1px solid #8b5cf6;
-    border-radius: 10px;
+.pixel-badge:hover {
+    transform: translateY(-3px);
+    background: linear-gradient(180deg, #9f67ff, #6d28ff);
+    box-shadow:
+        5px 5px 0 #2d146d,
+        0 0 15px rgba(124, 58, 237, .55);
+}
 
+.warna-icon {
+    color: #cea5fc;
+}
+
+.timeline {
+    position: relative;
+    margin-left: 10px;
+}
+
+.timeline::before {
+    content: "";
+    position: absolute;
+    left: 8px;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background: linear-gradient(to bottom,
+            #8b5cf6,
+            #5b21b6);
+}
+
+.timeline-item {
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 30px;
+}
+
+.timeline-item:last-child {
+    margin-bottom: 0;
+}
+
+.timeline-dot {
+    position: absolute;
+    left: 0;
+    top: 6px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #a855f7;
+    border: 3px solid white;
+    box-shadow: 0 0 15px rgba(168, 85, 247, .6);
+}
+
+.tahun {
+    display: inline-block;
+    margin-bottom: 6px;
     font-size: .8rem;
-    font-weight: 600;
-
-    transition: .3s;
+    color: #c4b5fd;
+    background: #4720a8;
+    padding: 2px 10px;
+    border-radius: 20px;
 }
 
-.tech-badge:hover {
-    background: #7c3aed;
-    transform: translateY(-2px);
-    box-shadow: 0 0 10px rgba(124, 58, 237, .5);
+.timeline-content h6 {
+    font-size: 1rem;
+    margin-bottom: 2px;
 }
 
-.jenjang{
-    color:hsl(219, 95%, 85%);
-    font-size:.9rem;
-    font-weight:500;
-    margin-left:24px;
+.jenjang {
+    font-family: "Geist Pixel", sans-serif;
+    font-optical-sizing: auto;
+    font-variation-settings:
+        "ELSH" 0;
+    color: #cbd5e1;
+    font-size: .9rem;
+}
+
+/* ! ================================================== */
+@keyframes bergerak {
+    0% {
+        background-position: 0% 0%, 100% 100%, 50% 50%;
+    }
+
+    50% {
+        background-position: 20% 10%, 80% 90%, 40% 60%;
+    }
+
+    100% {
+        background-position: 40% 20%, 60% 80%, 30% 70%;
+    }
 }
