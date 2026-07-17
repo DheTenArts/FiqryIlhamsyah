@@ -179,6 +179,11 @@ body {
     font-size: .9rem;
 }
 
+.bungkus-card {
+    display: flex;
+    justify-content: center;
+}
+
 .project-card {
     background: linear-gradient(180deg,
             #3d0d9c,
@@ -187,6 +192,7 @@ body {
     border-radius: 18px;
     overflow: hidden;
     color: white;
+    width: 20rem;
     transition: .35s;
     box-shadow:
         0 10px 30px rgba(0, 0, 0, .35);
@@ -198,14 +204,6 @@ body {
     box-shadow:
         0 0 25px rgba(139, 92, 246, .45),
         0 15px 35px rgba(0, 0, 0, .45);
-}
-
-.project-img {
-    transition: .4s;
-}
-
-.project-card:hover .project-img {
-    transform: scale(1.08);
 }
 
 .project-title {
@@ -220,4 +218,26 @@ body {
 
 .project-card .pixel-badge {
     font-size: .8rem;
+}
+
+.card-contact{
+    background: linear-gradient(145deg, #3f0ca5, #2c006f);
+}
+
+.form-control{
+    background: rgba(255,255,255,.08);
+    border: 1px solid rgba(255,255,255,.15);
+    color: white;
+    padding: 12px 16px;
+}
+
+.form-control:focus{
+    background: rgba(255,255,255,.12);
+    color: white;
+    border-color: #9f67ff;
+    box-shadow: 0 0 0 .2rem rgba(159,103,255,.25);
+}
+
+.form-control::placeholder{
+    color: rgba(255,255,255,.45);
 }
