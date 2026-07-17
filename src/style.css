@@ -178,3 +178,46 @@ body {
     color: #cbd5e1;
     font-size: .9rem;
 }
+
+.project-card {
+    background: linear-gradient(180deg,
+            #3d0d9c,
+            #2b006d);
+    border: 1px solid #8b5cf6;
+    border-radius: 18px;
+    overflow: hidden;
+    color: white;
+    transition: .35s;
+    box-shadow:
+        0 10px 30px rgba(0, 0, 0, .35);
+}
+
+.project-card:hover {
+    transform:
+        translateY(-12px);
+    box-shadow:
+        0 0 25px rgba(139, 92, 246, .45),
+        0 15px 35px rgba(0, 0, 0, .45);
+}
+
+.project-img {
+    transition: .4s;
+}
+
+.project-card:hover .project-img {
+    transform: scale(1.08);
+}
+
+.project-title {
+    font-weight: bold;
+    font-size: 1.35rem;
+}
+
+.project-desc {
+    color: #d5d5d5;
+    line-height: 1.7;
+}
+
+.project-card .pixel-badge {
+    font-size: .8rem;
+}

@@ -2,7 +2,7 @@ const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]
 const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
 
 new Typed("#typing", {
-    strings: ["👋 Hi, Welcome to My Portfolio"],
+    strings: ["👋 Hi, Selamat Datang di Portofolio Ku"],
     typeSpeed: 60,
     showCursor: false,
     loop: false
@@ -11,7 +11,7 @@ new Typed("#typing", {
 
 new Typed("#typing-skill", {
     strings: [
-        "Software Engineering Student",
+        "Mahasiswa Software Engineering",
         "Web Developer",
         "Graphic Designer",
         "PixelArt Artist",
