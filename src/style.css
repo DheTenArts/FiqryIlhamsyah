@@ -241,3 +241,16 @@ body {
 .form-control::placeholder{
     color: rgba(255,255,255,.45);
 }
+
+.btn-contact {
+    background-color: #4a27aa;
+    box-shadow: 0 4px 10px rgba(152, 134, 255, 0.699);
+    color: rgb(255, 243, 243);
+    transition: all .4s ease-in-out;
+}
+
+.btn-contact:hover {
+    background-color: #1e0561;
+    color: #8961f5;
+    transform: translateY(-5px);
+}
